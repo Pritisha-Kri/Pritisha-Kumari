@@ -397,6 +397,17 @@ export default function Work() {
                       ↗
                     </span>
                   </a>
+                  <a
+                    className="flex items-center space-x-1.5 text-brandRed hover:text-white transition-colors duration-200 group/link"
+                    href="https://frontendtaxpal-project.vercel.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>LIVE DEMO</span>
+                    <span className="transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform">
+                      ↗
+                    </span>
+                  </a>
                 </div>
               </div>
               <div className="lg:col-span-7 order-1 lg:order-2">
