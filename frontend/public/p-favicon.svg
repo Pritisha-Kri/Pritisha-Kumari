@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Red background -->
+  <circle cx="256" cy="256" r="256" fill="#eb0302" />
+  
+  <!-- Dashed border -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#b50a0d" stroke-width="6" stroke-dasharray="10 12" />
+  
+  <!-- The 'P' shape -->
+  <g fill="none" stroke="#ffffff" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stem -->
+    <line x1="220" y1="160" x2="220" y2="350" />
+    <!-- Top Serif (Left) -->
+    <line x1="180" y1="160" x2="220" y2="160" />
+    <!-- Bottom Serif (Base) -->
+    <line x1="180" y1="350" x2="270" y2="350" />
+    <!-- Loop -->
+    <path d="M 220,160 h 60 c 50,0 80,30 80,75 c 0,45 -30,75 -80,75 h -60" />
+  </g>
+  
+  <!-- Cyan dot with red border for cutout effect -->
+  <circle cx="340" cy="150" r="20" fill="#00e5ff" stroke="#eb0302" stroke-width="8" />
+</svg>
