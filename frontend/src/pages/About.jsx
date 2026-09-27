@@ -4,10 +4,10 @@ export default function About() {
   return (
     <main>
       {/* BEGIN: About & Skills Section */}
-      <section className="relative bg-[#120f0e] text-white py-24 sm:py-32 px-6 sm:px-10 border-t border-white/10" data-purpose="about-section" id="about">
+      <section className="relative bg-[#120f0e] text-white pt-40 pb-16 sm:pt-28 sm:pb-24 lg:pt-32 lg:pb-32 px-4 sm:px-6 lg:px-10 border-t border-white/10" data-purpose="about-section" id="about">
       <div className="max-w-7xl mx-auto">
       {/* Top Bracket Tag & Dossier Index */}
-      <div className="flex items-center justify-between pb-8 mb-16 border-b border-white/10 font-mono text-xs uppercase tracking-[0.25em] text-white/60">
+      <div className="flex items-center justify-between pb-8 mb-10 sm:mb-16 border-b border-white/10 font-mono text-xs uppercase tracking-[0.25em] text-white/60">
       <div className="flex items-center space-x-2">
       <span className="text-brandRed font-bold">[</span>
       <span className="text-white font-medium">ABOUT</span>
@@ -19,14 +19,14 @@ export default function About() {
             </div>
       </div>
       {/* Asymmetric Editorial Split Layout */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
       {/* Left Column: Editorial Serif Statement & Bio Statement */}
       <div className="lg:col-span-6 space-y-8 lg:pr-8">
       <div className="space-y-4">
       <span className="font-mono text-xs uppercase tracking-editorial text-brandRed block font-semibold">
                   PHILOSOPHY &amp; APPROACH
                 </span>
-      <h2 className="text-3xl sm:text-5xl lg:text-[54px] font-display font-medium leading-[1.12] tracking-tight text-white">
+      <h2 className="text-2xl sm:text-5xl lg:text-[54px] font-display font-medium leading-[1.12] tracking-tight text-white">
                   Building things that are useful, thoughtful, and well-crafted.
                 </h2>
       </div>
@@ -123,7 +123,7 @@ export default function About() {
                   </span>
       <span className="font-mono text-[10px] tracking-widest uppercase text-white/40">CORE CAPABILITIES</span>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 sm:gap-y-6 gap-x-8">
       <div className="space-y-1.5">
       <span className="font-mono text-xs uppercase tracking-wider text-white/50 block">
                       FRONTEND
@@ -176,7 +176,7 @@ export default function About() {
               Thesis Eduventures Pvt. Ltd.
             </span>
           </div>
-          <div className="flex items-center space-x-2 font-mono text-xs text-white/70">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-white/70">
             <span className="text-brandRed font-bold">•</span>
             <span>Projects:</span>
             <span className="text-white font-medium">Eazzio Books &amp; Eazzio-School</span>
@@ -196,7 +196,7 @@ export default function About() {
               Infosys Springboard | Oct 2025 – Dec 2025
             </span>
           </div>
-          <div className="flex items-center space-x-2 font-mono text-xs text-white/70">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs text-white/70">
             <span className="text-brandRed font-bold">•</span>
             <span>Project:</span>
             <span className="text-white font-medium">TaxPal</span>

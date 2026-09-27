@@ -31,8 +31,8 @@ export default function App() {
 
       {/* HEADER */}
       <header className="fixed w-full top-0 z-50" data-purpose="top-navigation">
-        <div className="max-w-7xl mx-auto px-6 sm:px-10 py-6 sm:py-8 flex justify-between items-start sm:items-center">
-          <Link to="/" className="flex items-center space-x-4 sm:space-x-5 group cursor-pointer" style={{ textDecoration: 'none' }}>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 sm:py-8 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+          <Link to="/" className="flex items-center space-x-3 sm:space-x-5 group cursor-pointer" style={{ textDecoration: 'none' }}>
             {/* Logo Mark */}
             <div className="relative flex items-center justify-center">
               {/* Outer dotted/dashed ring */}
@@ -51,14 +51,14 @@ export default function App() {
             </div>
           </Link>
 
-          <nav className="glass-pill px-4 py-2 rounded-full shadow-2xl flex items-center space-x-2 sm:space-x-3" data-purpose="bracket-nav">
-            <Link className="px-3 py-1.5 text-sm sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/about">
+          <nav className="glass-pill px-2 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-2xl flex flex-wrap justify-center items-center gap-x-0 sm:gap-x-3" data-purpose="bracket-nav">
+            <Link className="px-1.5 sm:px-3 py-1 sm:py-1.5 text-[11px] sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/about">
               <span className="text-white/50 font-normal">[</span> ABOUT <span className="text-white/50 font-normal">]</span>
             </Link>
-            <Link className="px-3 py-1.5 text-sm sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/work">
+            <Link className="px-1.5 sm:px-3 py-1 sm:py-1.5 text-[11px] sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/work">
               <span className="text-white/50 font-normal">[</span> WORK <span className="text-white/50 font-normal">]</span>
             </Link>
-            <Link className="px-3 py-1.5 text-sm sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/contact">
+            <Link className="px-1.5 sm:px-3 py-1 sm:py-1.5 text-[11px] sm:text-base font-bold font-mono tracking-wider uppercase text-white/90 hover:text-white hover:bg-white/10 transition-all duration-300" to="/contact">
               <span className="text-white/50 font-normal">[</span> CONTACT <span className="text-white/50 font-normal">]</span>
             </Link>
           </nav>

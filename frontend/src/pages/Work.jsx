@@ -6,14 +6,14 @@ export default function Work() {
     <main>
       {/* BEGIN: Selected Works Section */}
       <section
-        className="relative text-white py-24 sm:py-32 px-6 sm:px-10 bg-[#120f0e]"
+        className="relative text-white pt-40 pb-16 sm:pt-28 sm:pb-24 lg:pt-32 lg:pb-32 px-4 sm:px-6 lg:px-10 bg-[#120f0e]"
         data-purpose="selected-works-section"
         id="work"
       >
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-8 border-b border-white/10">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-16 pb-8 border-b border-white/10">
             <div className="space-y-3">
-              <div className="flex items-center space-x-2 font-mono text-xs uppercase tracking-[0.25em]">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1 font-mono text-xs uppercase tracking-[0.25em]">
                 <span className="text-brandRed font-bold">[</span>
                 <span className="text-white font-medium">WORK</span>
                 <span className="text-brandRed font-bold">]</span>
@@ -31,14 +31,14 @@ export default function Work() {
               <span className="text-brandRed">2023 — 2026</span>
             </div>
           </div>
-          <div className="space-y-24">
+          <div className="space-y-14 sm:space-y-24">
             {/* 01: RAILSYNC AI (Text Left, Image Right) */}
             <motion.article
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-7 order-1 lg:order-2">
                 <div className="relative rounded-xl overflow-hidden border border-white/15 bg-neutral-900/60 shadow-2xl">
@@ -52,7 +52,7 @@ export default function Work() {
                 </div>
               </div>
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2 lg:order-1">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     01
                   </span>
@@ -87,7 +87,7 @@ export default function Work() {
                     PostgreSQL
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-white hover:text-brandRed transition-colors duration-200 group/link"
                     href="#"
@@ -110,10 +110,10 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     02
                   </span>
@@ -148,7 +148,7 @@ export default function Work() {
                     Prisma ORM
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-white hover:text-brandRed transition-colors duration-200 group/link"
                     href="https://github.com/Eazzio-Technologies-Pvt-Ltd/Eazzio-School"
@@ -193,7 +193,7 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-7 order-1 lg:order-2">
                 <div className="relative rounded-xl overflow-hidden border border-white/15 bg-neutral-900/60 shadow-2xl">
@@ -207,7 +207,7 @@ export default function Work() {
                 </div>
               </div>
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2 lg:order-1">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     03
                   </span>
@@ -242,7 +242,7 @@ export default function Work() {
                     JWT
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-white hover:text-brandRed transition-colors duration-200 group/link"
                     href="https://github.com/Eazzio-Technologies-Pvt-Ltd/Eazzio-Books"
@@ -276,10 +276,10 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     04
                   </span>
@@ -311,7 +311,7 @@ export default function Work() {
                     Express.js
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-brandRed hover:text-white transition-colors duration-200 group/link"
                     href="https://eazzio.com/"
@@ -345,10 +345,10 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2 lg:order-1">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     05
                   </span>
@@ -385,7 +385,7 @@ export default function Work() {
                     Tailwind CSS
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-white hover:text-brandRed transition-colors duration-200 group/link"
                     href="https://github.com/Pritisha-Kri/TaxPal-Personal-Finance-Tax-Estimator"
@@ -430,7 +430,7 @@ export default function Work() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-20 border-b border-white/10"
+              className="group grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center pb-12 sm:pb-20 border-b border-white/10"
             >
               <div className="lg:col-span-7 order-1">
                 <div className="relative rounded-xl overflow-hidden border border-white/15 bg-neutral-900/60 shadow-2xl">
@@ -444,7 +444,7 @@ export default function Work() {
                 </div>
               </div>
               <div className="lg:col-span-5 flex flex-col justify-center space-y-6 order-2">
-                <div className="flex items-center space-x-3">
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
                   <span className="font-mono text-sm text-brandRed font-bold tracking-widest">
                     06
                   </span>
@@ -479,7 +479,7 @@ export default function Work() {
                     Express.js
                   </span>
                 </div>
-                <div className="pt-4 flex items-center space-x-6 font-mono text-xs font-semibold tracking-wider">
+                <div className="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3 font-mono text-xs font-semibold tracking-wider">
                   <a
                     className="flex items-center space-x-1.5 text-white hover:text-brandRed transition-colors duration-200 group/link"
                     href="https://github.com/Pritisha-Kri/i-coder--a-code-learning-website-"
@@ -496,7 +496,7 @@ export default function Work() {
             
             </motion.article>
           </div>
-          <div className="mt-16 flex flex-col sm:flex-row justify-between items-center py-8 px-8 bg-neutral-900/60 rounded-2xl border border-white/10">
+          <div className="mt-16 flex flex-col sm:flex-row justify-between items-center py-8 px-5 sm:px-8 bg-neutral-900/60 rounded-2xl border border-white/10">
             <div>
               <div className="font-mono text-xs text-white/50 uppercase tracking-widest">
                 HAVE A VISION IN MIND?
@@ -506,7 +506,7 @@ export default function Work() {
               </div>
             </div>
             <a
-              className="mt-4 sm:mt-0 px-6 py-3 rounded-full bg-brandRed text-white font-mono text-xs font-bold tracking-wider uppercase hover:bg-brandDarkRed transition-all"
+              className="mt-4 sm:mt-0 w-full sm:w-auto text-center px-6 py-3 rounded-full bg-brandRed text-white font-mono text-xs font-bold tracking-wider uppercase hover:bg-brandDarkRed transition-all"
               href="/contact"
             >
               COMMISSION INQUIRY
